@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import Lottie from 'lottie-react'
-import Anim from '/Users/vinaykumar/Desktop/Product/video calling/frontend/src/Animations/Anim.json'
+import Anim from '../../Animations/Anim.json'
 
 
 function MeetingAnimation() {
