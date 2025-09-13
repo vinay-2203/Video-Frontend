@@ -1,7 +1,7 @@
 import React, { use, useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import Lottie from 'lottie-react';
-import Message from "/Users/vinaykumar/Desktop/Product/video calling/frontend/src/Animations/MsCollision.json"
+import Message from "../../Animations/MsCollision.json"
 function MessageAnim() {
     // const navigate = useNavigate();
 
