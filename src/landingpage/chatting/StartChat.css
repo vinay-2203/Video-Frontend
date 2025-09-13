@@ -1,0 +1,127 @@
+.chat-wrapper {
+  margin-top: 76px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #c9d6ff, #e2e2e2);
+  padding: 20px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.sub-title {
+  margin-top: 5px;
+  color: #4e73df;
+  font-weight: 600;
+}
+
+.friend-header {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #f8f9fc;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.friend-name {
+  font-weight: bold;
+  color: #2c7be5;
+  margin-left: 5px;
+}
+
+.friend-number {
+  margin-left: 10px;
+  color: #555;
+}
+
+.chat-box {
+  flex: 1;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* take all remaining space */
+  overflow-y: auto;
+  box-shadow: inset 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chat-message {
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.chat-message.sent {
+  justify-content: flex-end;
+}
+
+.chat-message.received {
+  justify-content: flex-start;
+}
+
+.message-bubble {
+  max-width: 60%;
+  padding: 10px 15px;
+  border-radius: 18px;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.chat-message.sent .message-bubble {
+  background: #4e73df;
+  color: white;
+  border-bottom-right-radius: 5px;
+}
+
+.chat-message.received .message-bubble {
+  background: #f1f0f0;
+  color: #333;
+  border-bottom-left-radius: 5px;
+}
+
+.message-time {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 5px;
+  text-align: right;
+  opacity: 0.7;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  
+  width: 100%;
+  max-width: 800px;
+  margin-top: 15px;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.input-box button {
+  margin-left: 10px;
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: none;
+  background: #4e73df;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.input-box button:hover {
+  background: #2c5be5;
+}

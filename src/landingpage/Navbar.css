@@ -1,0 +1,13 @@
+.container-fluid{
+   font-family: 'Bree Serif', serif !important;
+   color: white !important;
+}
+
+.links{
+    color: white !important;
+    /* background-color: white !important; */
+}
+
+.navbar-collapse {
+  z-index: 1050; /* higher than other elements */
+}

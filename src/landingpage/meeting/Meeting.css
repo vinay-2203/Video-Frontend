@@ -1,0 +1,124 @@
+.meeting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.meeting-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  color: #fff;
+  text-align: center;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.form-control-modern {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  margin-top: 15px;
+  outline: none;
+}
+
+.btn-modern {
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.btn-green {
+  background: #28a745;
+  color: white;
+}
+.btn-blue {
+  background: #007bff;
+  color: white;
+}
+.btn-outline {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+}
+.btn-wa {
+  background: #25d366;
+  color: white;
+}
+.btn-gmail {
+  background: #ea4335;
+  color: white;
+}
+.btn-telegram {
+  background: #0088cc;
+  color: white;
+}
+
+.btn-modern:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.meeting-info {
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: left;
+}
+
+.share-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.divider {
+  margin: 20px 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ddd;
+  position: relative;
+}
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #ccc;
+}
+.divider::before {
+  left: 0;
+}
+.divider::after {
+  right: 0;
+}
+
+.auth-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #111;
+}
+.auth-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+.industry-box {
+  min-height: 80px;
+  transition: all 0.3s ease-in-out;
+}
+
+.industry-box:hover {
+  background-color: #0d6efd;
+  color: white;
+  transform: translateY(-4px);
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+footer {
+    background-color: #212529; /* dark */
+    color: #f8f9fa; /* light text */
+    padding: 2rem 0;
+    width: 100%;
+}
+
+/* Bottom line */
+footer hr {
+    border-color: #f8f9fa;
+}
+
+/* Footer links hover */
+footer a:hover {
+    text-decoration: underline;
+}
