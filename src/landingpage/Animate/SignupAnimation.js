@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import Lottie from 'lottie-react'
-import LoginSignup from '/Users/vinaykumar/Desktop/Product/video calling/frontend/src/Animations/LoginSignup.json'
+import LoginSignup from  '../../Animations/LoginSignup.json'
 
 
 function SignupAnimation() {
